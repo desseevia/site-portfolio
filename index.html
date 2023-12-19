@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Сайт - портфолио</title>
+</head>
+<body>
+  <header>
+        <div class="logo">
+          <img src="img/white.png" alt="Логотип">
+        </div>
+        <nav>
+          <ul>
+              <li><a href="#about-me">Обо мне</a></li>
+              <li><a href="#projects">Проекты</a></li>
+              <li><a href="#kon">Контакты</a></li>
+          </ul>
+      </nav>
+      <div class="button-contact">
+          <a href="#contacts">Связаться</a>
+      </div>
+    </header>
+  <main>
+    <div id="glav" class="hero">
+      <div class="left-column">
+        <h1 class="logo">Сделаю сайт, который будет говорить и продавать вместо вас!</h1>
+      </div>
+      <div class="right-column">
+        <div class="photo">
+          <img src="img/i.png" alt="Моя фотография">
+        </div>
+      </div>
+    </div>
+
+
+    <div id="about-me" class="container1">
+      <h1>Почему именно я?</h1>
+      <div class="reasons">
+        <div class="reason">
+          <img src="img/html.jpg" alt="Причина 1">
+          <h2>Богатый опыт</h2>
+          <p>Большой опыт веб-разработки и создания сайтов для различных отраслей</p>
+        </div>
+        <div class="reason">
+          <img src="img/lap.jpg" alt="Причина 2">
+          <h2>Индивидуальный подход</h2>
+          <p>Искренне, уделяю внимание каждому клиенту, чтобы понять его уникальные потребности</p>
+        </div>
+        <div class="reason">
+          <img src="img/idea.jpg" alt="Причина 3">
+          <h2>Креативность</h2>
+          <p>Постоянно стремлюсь к инновациям и современным тенденциям веб-дизайна, чтобы создавать уникальные и привлекательные сайты</p>
+        </div>
+        <div class="reason">
+          <img src="img/communication.jpg" alt="Причина 4">
+          <h2>Коммуникация</h2>
+          <p>Уделяю особое внимание коммуникации с клиентами, предлагая уникальные обновления и обратную связь</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects" class="container2">
+      <h1>Мои проекты по веб-разработке и веб-дизайну</h1>
+      <div class="projects">
+        <a href="https://desseevia.github.io/visitka/" class="project">
+          <h2>Сайт - Визитка</h2>
+          <p>Веб - разработка</p>
+          <p>Многостраничный сайт визитка для компании является эффективным инструментом для представления информации о компании, ее услугах или продукции.</p>
+        </a>
+        <a href="https://desseevia.github.io/first-site/" class="project">
+          <h2>Мой первый сайт</h2>
+          <p>Веб - разработка</p>
+          <p>Первая и самая простая работа, представляет собой портфолио верстальщика. Помогает продемонстрировать и использовать базовые знания html и css.</p>
+        </a>
+        <a href="https://www.figma.com/file/lZHOn0aL0mCOCJnbg1mmMn/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD-%D0%9A%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8-%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD?type=design&node-id=0%3A1&mode=design&t=hag0O31Pmaha3OdC-1" class="project">
+          <h2>Магазин косметики</h2>
+          <p>Веб - дизайн</p>
+          <p>Веб-дизайн для магазина косметики помогает создать привлекательную и интуитивно понятную пользовательскую платформу, упрощая процесс выбора и покупки.</p>
+        </a>
+        <a href="https://www.figma.com/file/oSJzgj6dCUuAgp35Ou9Pg5/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD-%D0%97%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D0%B5%D0%B4%D1%8B-%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD?type=design&node-id=0%3A1&mode=design&t=hag0O31Pmaha3OdC-1" class="project">
+          <h2>Магазин здоровой еды</h2>
+          <p>Веб - дизайн</p>
+          <p>Веб-дизайн для магазина здоровой еды помогает создать привлекательную и информативную платформу для клиентов. Приятный дизайн помогает выделиться среди конкурентов.</p>
+        </a>
+      </div>
+    </div>
+
+    <div id="contacts" class="container">
+      <h2>
+          Свяжитесь со мной
+      </h2>
+      <form id="contact-form" action="#" method="post">
+          <input type="text" id="name" name="name" required placeholder="Введите ваше Имя">
+          
+          <input type="text" id="email" name="email" required placeholder="Введите ваш email">
+          
+          <input type="text" id="tel" name="tel" required placeholder="Введите ваш номер телефона">
+          
+          <textarea id="message" name="message" required placeholder="Опишите ваш проект"></textarea>
+          
+          <input type="submit" value="Отправить">
+      </form>
+    </div>
+  </main>
+    <footer>
+      <div id="kon" class="logo">
+          <img src="img/black.pngs" alt="Логотип">
+      </div>
+      <div class="social-icons">
+          <a href="https://t.me/desseevia"><img src="img/tg.svg" alt="Телеграм"></a>
+          <a href="https://vk.com/desseevia"><img src="img/vk.svg" alt="Вк"></a>
+          <a href="https://github.com/desseevia"><img src="img/git.svg" alt="ГитХаб"></a>
+      </div>
+      <div class="contact-list">
+        <h3 class="list-title">Контакты</h3>
+          <ul>
+              <li>+7 (123) 456 78 90</li>
+              <li>fed.yarosslava@gmail.com</li>
+              <li>Адрес: г. Город, ул. Улица, д. 1</li>
+          </ul>
+      </div>
+      <div class="site-sections">
+        <h3 class="list-title">Разделы сайта</h3>
+          <ul>
+              <li><a href="#glav">Главная</a></li>
+              <li><a href="#about-me">Почему именно я?</a></li>
+              <li><a href="#projects">Проекты</a></li>
+          </ul>
+      </div>
+  </footer>
+</body>
+</html>
